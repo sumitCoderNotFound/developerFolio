@@ -278,7 +278,7 @@ const achievementSection = {
       title: "Dreamcode Hackathon – 2nd Place",
       subtitle:
         "Secured 2nd position in the prestigious Dreamcode Hackathon held in the United Kingdom, competing against top developers from various universities.",
-      image: require("./assets/images/dreamcodehackathonlogo.png"), // Replace with actual hackathon logo if available
+      image: require("./assets/images/certificate_Hackathon.png"), // Replace with actual hackathon logo if available
       imageAlt: "Dreamcode Hackathon Logo",
       footerLink: [
         {
