@@ -23,25 +23,19 @@ const greeting = {
   username: "Sumit Malviya",
   title: "Hi all, I'm Sumit",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web with JavaScript / Reactjs / Angular/ Nodejs / and some other cool libraries and frameworks."
+    "Aspiring Cloud Solutions Architect 🚀 with 3+ years of Full Stack Development experience using MERN, MEAN, Spring Boot & AWS. Passionate about building scalable cloud-based solutions and translating business requirements into technical architectures."
   ),
-  resumeLink: "https://drive.google.com/uc?export=download&id=1S29QORXUInNuQzcIGw6c8HioSMF279eR",
-    // https://drive.google.com/file/d/1S29QORXUInNuQzcIGw6c8HioSMF279eR/view?usp=drive_link
+  resumeLink: "https://drive.google.com/file/d/1u1ywUJoDghCbQeu-xD28qbvJ3A_gA5ej/view?usp=drive_link",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/sumitDev12",
+  github: "https://github.com/sumitCoderNotFound",
   linkedin: "https://www.linkedin.com/in/sumit-malviya-0b77a51a5/",
-  gmail: "malviyasumit2000@gmail.com",
-  // gitlab: "https://gitlab.com/saadpasta",
+  gmail: "malviyasumit7987@gmail.com",
   facebook: "https://www.facebook.com/sumii.malviya",
-  // medium: "https://medium.com/@saadpasta",
-  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
 
@@ -49,21 +43,65 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL STACK DEVELOPER TRANSITIONING TO CLOUD SOLUTIONS ARCHITECT",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Build scalable full-stack applications using MERN & MEAN stacks with cloud-native architectures"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Design and implement REST APIs, microservices, and system architectures"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Work with AWS services (S3, EC2, Lambda, RDS) and containerization using Docker"
+    ),
+    emoji(
+      "⚡ Translate business requirements into technical solutions for enterprise clients"
     )
   ],
 
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
-
   softwareSkills: [
+    {
+      skillName: "aws",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "react",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "angular",
+      fontAwesomeClassname: "fab fa-angular"
+    },
+    {
+      skillName: "nodejs",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "mongodb",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "sql-database",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git-alt"
+    },
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -73,48 +111,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "bootstrap",
+      fontAwesomeClassname: "fab fa-bootstrap"
     },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -129,22 +131,22 @@ const educationInfo = {
       schoolName: "Northumbria University, Newcastle, UK",
       logo: require("./assets/images/northumbriaunilogo2.png"),
       subHeader: "Master of Science in Advanced Computer Science",
-      duration: "January 2025 - July 2026",
-      desc: "Currently pursuing a Master's degree focused on advanced topics in computing and software systems.",
+      duration: "January 2025 - June 2026",
+      desc: "Currently pursuing MSc focused on cloud computing, distributed systems, and software architecture.",
       descBullets: [
-        "Modules include Wireless Networks, Machine Learning, and Cybersecurity",
-        "Secured 2nd place in the Dreamcode Hackathon 2025"
+        "Relevant Modules: Cloud Computing, Distributed Systems, Software Architecture, Machine Learning",
+        "Secured 2nd place in the Dreamcode Hackathon 2025",
       ]
     },
     {
       schoolName: "Government Narmada College, Narmadapuram, India",
-      logo: require("./assets/images/nvmunilogo.avif"), // You can add this logo if available
-      subHeader: "Bachelor of Science in Industrial Chemistry",
-      duration: "2018 - 2021",
-      desc: "Completed B.Sc. with core studies in chemistry and industrial processes, with a growing interest in programming and software.",
+      logo: require("./assets/images/nvmunilogo.avif"),
+      subHeader: "Bachelor of Computer Science",
+      duration: "August 2018 - August 2021",
+      desc: "Completed Bachelor's degree with focus on computer science fundamentals and programming.",
       descBullets: [
-        "Participated in multiple college-level tech and science events",
-        "Transitioned into software engineering post-graduation"
+        "Built foundation in algorithms, data structures, and software development",
+        "Transitioned into full-stack software engineering post-graduation"
       ]
     }
   ]
@@ -156,23 +158,23 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend (React, Angular, HTML, CSS, JS, Bootstrap, Ant Design)",
-      progressPercentage: "90%"
-    },
-    {
-      Stack: "Backend (Node.js, Spring Boot, FastAPI)",
-      progressPercentage: "80%"
-    },
-    {
-      Stack: "Database (MongoDB, PostgreSQL, MySQL, SQL)",
+      Stack: "Cloud & DevOps (AWS S3, EC2, Lambda, RDS, Docker, CI/CD)",
       progressPercentage: "75%"
     },
     {
-      Stack: "Cloud & DevOps (AWS, Git, CI/CD)",
-      progressPercentage: "70%"
+      Stack: "Frontend (React.js, Angular, HTML, CSS, Bootstrap, Redux)",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Programming (Java, JavaScript, Python)",
+      Stack: "Backend (Node.js, Express.js, Spring Boot, REST APIs)",
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "Database (MongoDB, PostgreSQL, MySQL, SQL)",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Programming (JavaScript, Python, Java, TypeScript)",
       progressPercentage: "85%"
     }
   ],
@@ -185,27 +187,29 @@ const workExperiences = {
   display: true, // Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Developer (Angular + Node.js)",
-      company: "Smartgig",
-      companylogo: require("./assets/images/smartgigexplogo.jpeg"),
-      date: "December 2021 – July 2023",
-      desc: "Worked on the Infinity Learn project using Angular for frontend development and Node.js for backend services, focusing on scalable educational platforms.",
+      role: "Sr. Software Developer",
+      company: "Astron Micro Technology",
+      companylogo: require("./assets/images/astronexplogo.jpg"),
+      date: "August 2023 – December 2024",
+      desc: "Developed full-stack applications using MERN and MEAN stacks with AWS services (S3, EC2, Lambda) and Docker containerization.",
       descBullets: [
-        "Developed reusable Angular components and implemented role-based UI features",
-        "Built and integrated RESTful Node.js APIs for user management and learning modules",
-        "Improved UI/UX for student engagement workflows within the learning system"
+        "Led implementation of RESTful APIs, improving data retrieval efficiency by 30%",
+        "Designed authentication and authorization mechanisms for enterprise applications",
+        "Collaborated with UI/UX designers; integrated third-party payment gateways",
+        "Presented technical solutions and architecture decisions to stakeholders"
       ]
     },
     {
-      role: "Software Developer (React.js)",
-      company: "Astron Micro Technology",
-      companylogo: require("./assets/images/astronexplogo.jpg"),
-      date: "July 2023 – December 2024",
-      desc: "Worked on enterprise-level education platforms including Track Learning, Track Coaching, and Track Credential using React, Redux, and Ant Design.",
+      role: "Software Developer",
+      company: "Smartgig Technologies",
+      companylogo: require("./assets/images/smartgigexplogo.jpeg"),
+      date: "December 2021 – July 2023",
+      desc: "Developed and maintained scalable applications using Angular and Node.js, focusing on educational platforms.",
       descBullets: [
-        "Built modular React components for managing sessions, trainers, and credentials",
-        "Implemented scheduler UI and calendar-based interactions with event modals",
-        "Optimized credential tracking and filtering logic using Redux and API integration"
+        "Built and optimized backend APIs using Node.js for smooth data exchange",
+        "Improved backend performance by optimizing database queries and API responses",
+        "Integrated third-party APIs and designed MongoDB database schemas",
+        "Contributed to Agile sprint planning, stand-ups, and peer code reviews"
       ]
     }
   ]
@@ -223,43 +227,42 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "Some platforms I helped build and scale with impactful features and solid architecture",
+  title: "Key Projects",
+  subtitle: "Enterprise platforms I helped build with impactful features and scalable architecture",
   projects: [
     {
-      image: require("./assets/images/infinitylearnexplogo.webp"), // Replace with actual logo path
-      projectName: "Infinity Learn",
-      projectDesc: "An advanced e-learning platform where I contributed to frontend (Angular) and backend (Node.js) development to deliver seamless user experience and scalable features for students and educators.",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://infinitylearn.com/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/traineryoneexplogo.jpeg"), // Replace with actual logo path
-      projectName: "Trainery One",
-      projectDesc: "Worked on Track Learning, Track Coaching, and Track Credential modules – internal tools for managing coaching sessions, tracking credentials, and scheduling events using React, Redux, and Ant Design.",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://trainery.one/" // Replace with actual company/project URL if available
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/lywoexplogo.png"), // Update with actual logo path
-      projectName: "Lywo (Love Your Work)",
-      projectDesc: "A recruitment and HR platform transforming how companies hire and manage talent. As an Angular Developer and Team Lead, I led the development of dynamic front-end modules, built scalable and responsive UI components, and collaborated with cross-functional teams to deliver modern recruitment features that align with evolving industry needs.",
+      image: require("./assets/images/lywoexplogo.png"),
+      projectName: "LYWO (Recruitment Platform)",
+      projectDesc: "Built multi-login admin panel with different access levels for admins, recruiters, and candidates. Implemented job listings, candidate profiles, application tracking, and real-time job search with filtering capabilities.",
       footerLink: [
         {
           name: "Visit Website",
           url: "https://lywo.in/"
         }
       ]
+    },
+    {
+      image: require("./assets/images/traineryoneexplogo.jpeg"),
+      projectName: "Trainery One (Learning Platform)",
+      projectDesc: "Developed Track Coaching, Track Learning, and Track Credentials modules using React.js. Built interactive dashboards with scheduler/calendar functionalities, real-time notifications, and credential expiration alerts.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://trainery.one/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/infinitylearnexplogo.webp"),
+      projectName: "Infinity Learn (EdTech Platform)",
+      projectDesc: "Built Quiz Module with question banks, scoring logic, and progress tracking using Angular/Node.js. Developed My Activity Module where users earned badges and certifications upon course completion.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://infinitylearn.com/"
+        }
+      ]
     }
-    
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -271,30 +274,30 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done!",
+    "Achievements, Certifications, and recognitions from my professional journey!",
 
   achievementsCards: [
     {
-      title: "Dreamcode Hackathon – 2nd Place",
+      title: "Dreamcode Hackathon 2025 – 2nd Place",
       subtitle:
         "Secured 2nd position in the prestigious Dreamcode Hackathon held in the United Kingdom, competing against top developers from various universities.",
-      image: require("./assets/images/certificate_Hackathon.png"), // Replace with actual hackathon logo if available
+      image: require("./assets/images/certificate_Hackathon.png"),
       imageAlt: "Dreamcode Hackathon Logo",
       footerLink: [
         {
           name: "Event Details",
-          url: "https://dreamcode.network/en-gbp/" // Replace with real URL if available
+          url: "https://dreamcode.network/en-gbp/"
         }
       ]
     },
     {
-      title: "Best Performer & Team Lead",
+      title: "Best Performer & Team Lead Award",
       subtitle:
-        "Recognized as the Best Performer and Team Lead for delivering high-impact features and leading the team efficiently at Smartgig.",
-      image: require("./assets/images/teamleadaward.jpg"), // Replace with actual award icon if available
+        "Recognized as the Best Performer and Team Lead for delivering high-impact features and leading the team efficiently at Smartgig Technologies.",
+      image: require("./assets/images/teamleadaward.jpg"),
       imageAlt: "Team Lead Award",
       footerLink: []
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -305,8 +308,8 @@ const achievementSection = {
 const blogSection = {
   title: "Mentorship & Guidance",
   subtitle:
-    "With a passion for helping others grow, I actively guide my juniors and peers in building their careers in tech.",
-  displayMediumBlogs: "false", // No need to fetch Medium blogs
+    "With a passion for helping others grow, I actively guide juniors and peers in building their careers in tech.",
+  displayMediumBlogs: "false",
   blogs: [
     {
       title: "Career Mentorship",
@@ -316,7 +319,7 @@ const blogSection = {
     {
       title: "Technical Guidance",
       description:
-        "I assist others in understanding complex concepts in web development, help debug code, and guide them on best practices in React, Angular, Node.js, and Spring Boot."
+        "I assist others in understanding complex concepts in web development, cloud architecture, and help them with best practices in React, Angular, Node.js, and AWS."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -360,26 +363,25 @@ const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
 
-  // Please Provide with Your Podcast embeded Link
   display: true // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+44 7368909984",
-  email_address: "malviyasumit2000@gmail.com"
+    "Looking for AWS Solutions Architect Intern opportunities. Let's discuss how I can contribute to your team!",
+  number: "+44 7386 909984",
+  email_address: "malviyasumit7987@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "twitter",
   display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set true - you are looking for AWS SA Intern role!
 
 export {
   illustration,
