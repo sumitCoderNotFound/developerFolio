@@ -26,7 +26,7 @@ const greeting = {
     "Aspiring Cloud Solutions Architect 🚀 with 3+ years of Full Stack Development experience using MERN, MEAN, Spring Boot & AWS. Passionate about building scalable cloud-based solutions and translating business requirements into technical architectures."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1u1ywUJoDghCbQeu-xD28qbvJ3A_gA5ej/view?usp=drive_link",
+    "https://drive.google.com/file/d/18c9Lt9JCsZ_eV3sayfB3gA9A-1-bVxrv/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
