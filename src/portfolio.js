@@ -25,7 +25,8 @@ const greeting = {
   subTitle: emoji(
     "Aspiring Cloud Solutions Architect 🚀 with 3+ years of Full Stack Development experience using MERN, MEAN, Spring Boot & AWS. Passionate about building scalable cloud-based solutions and translating business requirements into technical architectures."
   ),
-  resumeLink: "https://drive.google.com/file/d/1u1ywUJoDghCbQeu-xD28qbvJ3A_gA5ej/view?usp=drive_link",
+  resumeLink:
+    "https://drive.google.com/file/d/1u1ywUJoDghCbQeu-xD28qbvJ3A_gA5ej/view?usp=drive_link",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -48,7 +49,9 @@ const skillsSection = {
     emoji(
       "⚡ Build scalable full-stack applications using MERN & MEAN stacks with cloud-native architectures"
     ),
-    emoji("⚡ Design and implement REST APIs, microservices, and system architectures"),
+    emoji(
+      "⚡ Design and implement REST APIs, microservices, and system architectures"
+    ),
     emoji(
       "⚡ Work with AWS services (S3, EC2, Lambda, RDS) and containerization using Docker"
     ),
@@ -135,7 +138,7 @@ const educationInfo = {
       desc: "Currently pursuing MSc focused on cloud computing, distributed systems, and software architecture.",
       descBullets: [
         "Relevant Modules: Cloud Computing, Distributed Systems, Software Architecture, Machine Learning",
-        "Secured 2nd place in the Dreamcode Hackathon 2025",
+        "Secured 2nd place in the Dreamcode Hackathon 2025"
       ]
     },
     {
@@ -215,7 +218,6 @@ const workExperiences = {
   ]
 };
 
-
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
@@ -228,12 +230,14 @@ const openSource = {
 
 const bigProjects = {
   title: "Key Projects",
-  subtitle: "Enterprise platforms I helped build with impactful features and scalable architecture",
+  subtitle:
+    "Enterprise platforms I helped build with impactful features and scalable architecture",
   projects: [
     {
       image: require("./assets/images/lywoexplogo.png"),
       projectName: "LYWO (Recruitment Platform)",
-      projectDesc: "Built multi-login admin panel with different access levels for admins, recruiters, and candidates. Implemented job listings, candidate profiles, application tracking, and real-time job search with filtering capabilities.",
+      projectDesc:
+        "Built multi-login admin panel with different access levels for admins, recruiters, and candidates. Implemented job listings, candidate profiles, application tracking, and real-time job search with filtering capabilities.",
       footerLink: [
         {
           name: "Visit Website",
@@ -244,7 +248,8 @@ const bigProjects = {
     {
       image: require("./assets/images/traineryoneexplogo.jpeg"),
       projectName: "Trainery One (Learning Platform)",
-      projectDesc: "Developed Track Coaching, Track Learning, and Track Credentials modules using React.js. Built interactive dashboards with scheduler/calendar functionalities, real-time notifications, and credential expiration alerts.",
+      projectDesc:
+        "Developed Track Coaching, Track Learning, and Track Credentials modules using React.js. Built interactive dashboards with scheduler/calendar functionalities, real-time notifications, and credential expiration alerts.",
       footerLink: [
         {
           name: "Visit Website",
@@ -255,7 +260,8 @@ const bigProjects = {
     {
       image: require("./assets/images/infinitylearnexplogo.webp"),
       projectName: "Infinity Learn (EdTech Platform)",
-      projectDesc: "Built Quiz Module with question banks, scoring logic, and progress tracking using Angular/Node.js. Developed My Activity Module where users earned badges and certifications upon course completion.",
+      projectDesc:
+        "Built Quiz Module with question banks, scoring logic, and progress tracking using Angular/Node.js. Developed My Activity Module where users earned badges and certifications upon course completion.",
       footerLink: [
         {
           name: "Visit Website",
@@ -266,7 +272,6 @@ const bigProjects = {
   ],
   display: true // Set false to hide this section, defaults to true
 };
-
 
 // Achievement Section
 // Include certificates, talks etc
@@ -302,7 +307,6 @@ const achievementSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
-
 // Blogs Section
 
 const blogSection = {
@@ -324,7 +328,6 @@ const blogSection = {
   ],
   display: true // Set false to hide this section, defaults to true
 };
-
 
 // Talks Sections
 
